@@ -1,8 +1,6 @@
 var square = d3.select('.container').selectAll('div')
   .data([0]).enter().append('div').attr('class', 'square')
   .style({
-    // top:    0 + 'px',
-    // left:   0 + 'px',
     'background-color': 'blue',
     top: 15 + 'px',
     left: 15 + 'px',
